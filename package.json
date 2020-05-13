@@ -1,0 +1,24 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "This app allows users to create and devour any burger they come up with!",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvernot/Eat-Da-Burger.git"
+  },
+  "author": "Jason Vernot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvernot/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/jvernot/Eat-Da-Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
