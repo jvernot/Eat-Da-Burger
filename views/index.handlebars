@@ -8,26 +8,22 @@
     <div class="col s6 blue">
         <ul>
             {{#each burgers}}
-                <li>
-                    {{burger_name}}
-                </li>
-                {{!-- {{#unless devoured}}
+                {{#unless devoured}}
                     {{> burgers/burger-block devoured=true}}
-                {{/unless}} --}}
+                {{/unless}}
             {{/each}}
         </ul>
     </div>
 
 
     <div class="col s6 red">
-        <h2>Bye</h2>
-        {{!-- <ul>
+        <ul>
             {{#each burgers}}
                 {{#unless devoured}}
                     {{> burgers/burger-block devoured=false}}
                 {{/unless}}
             {{/each}}
-        </ul> --}}
+        </ul>
     </div>
 </div>
 
