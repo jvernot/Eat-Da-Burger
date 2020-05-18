@@ -18,11 +18,11 @@ router.post('/api/burgers', (req, res) => {
     const { name, devoured } = req.body;
 
     burger.insertOne([
-        'name', 'devoured'
+        'burger_name', 'devoured'
     ], [
         name, devoured
     ], (res) => {
-        res.json({ id: result.insertId });
+        res.json({ id: res.insertId });
     });
 });
 

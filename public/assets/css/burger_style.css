@@ -12,3 +12,8 @@ body {
 h1 {
     font-weight: 900;
 }
+
+li {
+    padding: 10px;
+    font-size: larger;
+}
