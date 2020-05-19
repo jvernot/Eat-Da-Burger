@@ -46,6 +46,7 @@ const orm = {
         });
     },
     insertOne: function(table, cols, vals, cb) {
+        console.log('vals!!!!!!!:', vals)
         var queryString = `INSERT INTO ${table} (${cols.toString()}) VALUES(${printQuestionMarks(vals.length)})`;
     
         console.log(queryString);

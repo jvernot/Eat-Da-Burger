@@ -3,9 +3,11 @@ $(function() {
     $(".devourBtn").on("click", function(event) {
       let id = $(this).data("id");
       var newDevour = $(this).data(newDevour);
+      console.log('newDevour:', newDevour)
 
       var newDevourStatus = {
-        devoured: newDevour
+          id,
+            devoured: true
         };
       
       // Send the PUT request.
@@ -25,10 +27,13 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
       console.log("click")
-  
+        
+     const eaten = $('#eaten').is(":checked")
+     console.log('eaten:', eaten)
+
       var newBurger = {
         name: $("#burgerName").val().trim(),
-        devoured: (1)
+        devoured: $('#eaten').is(":checked")
       };
   
       // Send the POST request.
