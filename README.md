@@ -8,11 +8,15 @@ Come and create a list of all of the delicios burgers you have ever wanted to tr
 
 ## Table of Contents
 
+- [Details](#details)
+
 - [Usage](#usage)
 
 - [Contributing](#contributing)
 
 - [Questions](#questions)
+
+## Details
 
 ## Usage
 
