@@ -18,7 +18,7 @@ Come and create a list of all of the delicios burgers you have ever wanted to tr
 
 ## Details
 
-One of the most challenging parts of this project was integrating Handlebars.js. However, once I began to understand the syntax a bit better as well as the advantages of using Javascript templating, it proved to be very useful. Through the use of Handlebars I was able to keep javascript and html code separate but easily render the the two together. Below is an example where through the use of Handlebars, different html is rendered based on whether eas burger has been devoured or not. 
+One of the most challenging parts of this project was integrating Handlebars.js. However, once I began to understand the syntax a bit better as well as the advantages of using Javascript templating, it proved to be very useful. Through the use of Handlebars I was able to keep javascript and html code separate but easily render the the two together. Below is an example where through the use of Handlebars, different html is rendered based on whether each burger has been devoured or not. 
 
 ![Handlebards.js code](/public/assets/img/HandlebarCode.png)
 
